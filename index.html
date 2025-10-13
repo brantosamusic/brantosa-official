@@ -6,46 +6,40 @@
   <title>brantosa — Official Website</title>
   <meta name="description" content="brantosa — official website. New releases, links, and contact." />
   <style>
-  :root{
-    --accent:#7b5eff;
-  }
-
+  /* ---- DARK BLUE THEME FOR BRANTOSA ---- */
   body{
     margin:0;
     font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;
-    /* beautiful gradient background */
-    background: linear-gradient(135deg, #6a00f4, #0018a8);
-    background-attachment: fixed;
-    color:#f6f6ff;
+    background-color:#031033; /* deep dark blue background */
+    color:#e6ebff;            /* soft white text */
     min-height:100vh;
   }
 
   header{
     text-align:center;
     padding:60px 20px;
-    color:#fff;
   }
 
   header img{
-    width:140px;
-    height:140px;
+    width:150px;
+    height:150px;
     object-fit:cover;
-    border-radius:10px;
+    border-radius:50%;
     border:3px solid #fff;
-    box-shadow:0 0 25px rgba(255,255,255,0.25);
+    box-shadow:0 0 25px rgba(0, 100, 255, 0.4);
   }
 
   h1{
     margin:20px 0 10px;
-    font-size:38px;
+    font-size:40px;
+    color:#ffffff;
     letter-spacing:1px;
     text-transform:uppercase;
   }
 
   .tag{
-    opacity:.85;
+    color:#89a7ff;
     font-weight:500;
-    color:#d5d5ff;
   }
 
   main{
@@ -55,53 +49,51 @@
   }
 
   .card{
-    background:rgba(255,255,255,0.12);
-    border:1px solid rgba(255,255,255,0.2);
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
     border-radius:15px;
-    padding:20px;
+    padding:25px;
     margin:30px 0;
-    box-shadow:0 4px 12px rgba(0,0,0,0.25);
+    box-shadow:0 4px 14px rgba(0,0,0,0.3);
   }
 
   .player iframe{
-    border-radius:12px;
     width:100%;
+    border-radius:10px;
   }
 
   .links{
     display:flex;
     flex-wrap:wrap;
-    gap:12px;
+    gap:14px;
     justify-content:center;
   }
 
   .link{
-    padding:12px 18px;
-    background:#ffffff;
-    color:#1a0057;
+    padding:12px 20px;
+    background:#00b4ff;     /* bright cyan-blue button */
+    color:#031033;          /* dark text for contrast */
     text-decoration:none;
     border-radius:10px;
     font-weight:700;
+    box-shadow:0 0 10px rgba(0,180,255,0.4);
     transition:0.3s;
-    box-shadow:0 0 10px rgba(255,255,255,0.4);
   }
 
   .link:hover{
-    background:#e0d4ff;
+    background:#4dcaff;
+    box-shadow:0 0 15px rgba(0,200,255,0.8);
     transform:translateY(-2px);
-    box-shadow:0 0 16px rgba(255,255,255,0.6);
   }
 
   footer{
     text-align:center;
-    color:#ddd;
+    color:#7a8fff;
     padding:30px;
     font-size:14px;
   }
 </style>
 
-  
- 
 </head>
 <body>
   <header>
