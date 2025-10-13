@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>brantosa — Official Website</title>
   <meta name="description" content="brantosa — official website. New releases, links, and contact." />
-  <style>
+  <style>/* Title glow */
+h1{
+  position:relative;
+  text-shadow:0 0 18px rgba(90,160,255,.35);
+  animation:titleGlow 3.2s ease-in-out infinite;
+}
+@keyframes titleGlow{
+  0%,100%{ text-shadow:0 0 12px rgba(90,160,255,.25); transform:translateY(0) }
+  50%{    text-shadow:0 0 26px rgba(90,160,255,.55); transform:translateY(-1px) }
+}
+
   /* ---- DARK BLUE THEME FOR BRANTOSA ---- */
   body{
     margin:0;
